@@ -72,16 +72,9 @@ nav ul li a:hover {
     color: white;
 }
 
-section {
-    background-color: #e0e0e0;
-    border: 1px solid #795548;
-    padding: 15px;
-    margin-top: 20px;
-}
-
 aside {
     background-color: #e0e0e0;
-    border: 1px solid #795548;
+    border: 1px solid #2E2E2E;
     padding: 15px;
     margin-top: 20px;
 }
@@ -116,11 +109,11 @@ aside img {
 
 /* Alinear la imagen a la izquierda y reducir su tamaño */
 .responsive-img {
-    display: block;
-    max-width: 80px;
+    display: flexbox;
+    max-width: 60%;
     height: auto; /* Mantén la proporción en lugar de establecer una altura fija */
-    float: left;
-    margin: 0 30px 0 0;
+    float: center;
+    margin: auto;
 }
 
 .container {
@@ -135,17 +128,22 @@ aside img {
 }
 
 .container img {
-    max-width: 66.67%; /* Cambiar a 2/3 del tamaño actual */
+    max-width: 50%; /* Cambiar a 2/3 del tamaño actual */
     height: auto;
     float: left;
     margin: 0 20px 0 0; /* Añadir espacio a la derecha de la imagen */
 }
 
 .container p {
-    flex: 1; /* Ocupa el espacio restante */
+    flex:1; /* Ocupa el espacio restante */
     margin: 0; /* Eliminar margen adicional */
+    font-size: 150%;
 }
 
+td p {
+    flex:1; /* Ocupa el espacio restante */
+    font-size: 150%;
+}
 /* Centrar el contenido de la tabla */
 table {
     width: 100%;
@@ -175,8 +173,8 @@ th {
 
 td img {
     display: block;
-    margin: 0 auto;
-    max-width: 100px;
+    margin: auto;
+    max-width: 20%;
     height: auto;
     border: 2px solid #3A3A3A; /* Borde gris */
     border-radius: 10px; /* Esquinas redondeadas */
@@ -207,3 +205,11 @@ img {
     border-radius: 10px; /* Esquinas redondeadas */
 }
 
+article {
+    margin-bottom: 20px;
+    border: 1px solid #2E2E2E; /* Marrón cálido */
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+}
