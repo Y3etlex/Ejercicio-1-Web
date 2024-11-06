@@ -157,6 +157,7 @@ th, td {
     text-align: center;
     vertical-align: middle;
     align-items: center;
+    margin: auto;
 }
 
 /* Asegurarse de que las imágenes de la tabla estén centradas */
@@ -212,4 +213,37 @@ article {
     background-color: white;
     padding: 15px;
     overflow: hidden;
+}
+td label, input{
+    font-size: 20px;
+    margin: 10px;
+}
+
+#grande article p{
+    font-size: 20px;
+    margin: 10px;
+}
+form{
+    display: block;
+}
+button img{
+    max-width: 50px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.uno{
+    display: inline-block;
+    max-width: 300px;
+    align-self: center;
+    outline: none;
+    border: none;
+    background:none;
+    cursor: pointer;
+    margin: 0, 5px, 0 ,5px;
+}
+#div1{
+    display: flex;
+align-items: center;
+
 }
